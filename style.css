@@ -1,0 +1,139 @@
+
+/* İlk açıklama alanı 70 px kaydırıyor */
+body::before{
+    display: block;
+    content: '';
+    height: 70px;
+}
+
+#first-view-container-inc{
+    padding:  10px 10px 10px 10px red;
+}
+
+#first-view{
+    background-color: darkolivegreen;
+    box-shadow: 2px 2px 12px 12px black;
+    margin: 1rem;
+    border-radius: 0%0%20%20%;
+    transition: all 1s;
+    cursor: grabbing;
+}
+
+#first-view:hover{
+    transform: scale(1.1);
+}
+
+#education-type{
+    background-color: slategray;
+    box-shadow: 2px 2px 12px 12px black;
+    /* border: 1px solid rgb(134, 5, 5); */
+    border-radius: 1rem;
+    margin: 3rem 1.5rem 1.5rem 1.5rem;
+    transition: all 1s;
+    cursor: grabbing;
+}
+
+/* #education-type:hover{
+    transform: scale(0.9);
+} */
+
+#enroll{
+    box-shadow: 2px 2px 12px 12px black;
+    /* border: 1px solid rgb(134, 5, 5); */
+    border-radius: 1rem;
+    margin: 3rem 1.5rem 1.5rem 1.5rem;
+    transition: all 1s;
+    cursor: grabbing;
+}
+
+#enroll:hover{
+    transform: scale(0.9);
+}
+
+#img1{
+    width: 22rem;
+    margin: 0 2rem 2rem 0;
+    border-radius: 2rem;
+    box-shadow: 7px 10px 12px 2px black;
+}
+
+#img2{
+    box-shadow: 7px 10px 22px 2px black;
+    transition: all .5s;
+    border-radius: 10%;
+}
+
+#img2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#img3{
+    box-shadow: 7px 7px 22px 7px black;
+    transition: all .5s;
+    border-radius: 0%30%30%100%;
+}
+
+#img3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#img4{
+    box-shadow: 7px 7px 22px 7px black;
+    transition: all .5s;
+    border-radius: 0%30%30%100%;
+    object-fit: cover;
+}
+#img4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+}
+
+#education-end{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+#instructors{
+    box-shadow: 2px 2px 12px 12px black;
+    /* border: 1px solid rgb(134, 5, 5); */
+    border-radius: 1rem;
+    margin: 3rem 1.5rem 1.5rem 1.5rem;
+    cursor: grabbing;
+}
+
+#teach{
+    box-shadow: 2px 2px 12px 12px black;
+    /* border: 1px solid rgb(134, 5, 5); */
+    border-radius: 1rem;
+    margin: 3rem 1.5rem 1.5rem 1.5rem;
+    cursor: grabbing;
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+    box-shadow: 2px 2px 12px 12px black;
+    border-radius: 1rem;
+    transition: all 1s;
+    margin: 3rem 3rem 3rem 1rem;
+    border-radius: 0%30%0%30%;
+}
+
+#map:hover{
+    transform: rotate(5deg);
+    cursor: pointer;
+    border-radius: 30%0%30%0%;
+}
+
+
+#com-container{
+    border-radius: 10%0%10%0%;
+    padding: 4rem;
+    box-shadow: 2px 2px 12px 12px black;
+}
